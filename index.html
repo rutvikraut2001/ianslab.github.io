@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Add CSS at the head of HTML file -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+
+ 
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: rgb(134, 227, 227);
+        }
+
+        button {
+            background-color: rgb(134, 227, 227);
+            border : none;
+            outline: none;
+        }
+
+        p {
+            font-size: 160%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your code goes here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Home</a>
+          <a class="navbar-brand" href="procedure.html">Procedure</a>
+          <a class="navbar-brand" href="example.html">Example</a>
+          <a class="navbar-brand" href="assignment.html">Assignment</a>
+
+    
+    
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+
+          <!-- <a class="navbar-brand" href="index.html">Simulation</a> -->
+        </div>
+    </nav>      
+
+    <center>
+        <div class="content" id="experiment-article-section-4-content">
+            <h1><u>One-Time Pad Algorithm</u><br /><br /></h1>
+
+
+            
+<!-- </div>
+        <form name="converterForm" id="converterForm" method="post">
+            <div class="halfdiv">
+                <label for="tabin">Hex Value (max. 7fffffffffffffff)</label>
+        <textarea name="tabin" id="tabin" rows="2" required></textarea>
+        <label for="padding" style="display:inline-block;"><input type="checkbox" name="padding" id="padding"  />Padding</label>
+        <button type="submit">Convert</button>
+            </div>
+            
+            <div class="halfdiv">
+                <label for="resulttxt">Binary Value</label>
+                <textarea name="resulttxt" cols="38" rows="2" id="resulttxt" title="Binary value converted from hex"></textarea>
+        <span>swap conversion:</span> <a href="binary-to-hex-converter.html" title="Binary To Hex Converter">Binary To Hex Converter</a>
+            </div>
+            
+        <div class="clear">
+            <div class="margin10 center">
+<div data-aaad='true' data-aa-adunit='/22815767462/BHC_728v_2'></div>
+<div data-aaad='true' data-aa-adunit='/22815767462/BHC_Mob_300v_2'></div>
+</div>
+        </div>
+        </form>
+
+        <span class="bigFont">Hex to binary conversion result in base numbers</span>
+    <div id="baseresult">
+</div> -->
+
+            <h1>SIMULATOR</h1>
+            <hr />
+            <br />
+            <br />
+            <p>&nbsp&nbsp&nbsp<b>Plaintext (value)=</b>
+                <textarea cols="25" id="p" name="p" rows="1" autocomplete="on" ></textarea>
+                
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp<b>Keyword (value)=</b>
+                <input id="key" maxchars="25" name="key" size="22.5" type="text" value="" autocomplete="on" />
+            </p>
+            <p><button>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                 <input class="btn1" name="btnEn" onclick="Vernam_Encrypt()" type="button"
+                        value="Encrypt" /><br />
+                </button>
+                <button>
+                    <input class="btn2" name="btnDe" onclick="Vernam_Decrypt()" type="button" value="DECRYPT" />
+                </button>
+            </p>
+            <br />
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp<b>Ciphertext (value)=</b>
+                <textarea cols="25" id="c" name="c" rows="1"></textarea>
+                <br />
+            </p>
+            <br />
+            
+        </div>
+ 
+    </center>
+
+    <center>
+        
+        <br />
+    </center>
+        <footer>
+        <u>    <h4>Team Member : </h4> </u>
+        <h5>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 1.Pranav Patle - (B1) 29</h5>
+    <h5>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 2.Rutvik Raut - (B1) 39</h5>
+    <h5>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 3.Sanket Bhujade - (B2) 42</h5>
+                <!-- style="font-size: 15px; text-align: center; color : #32e0c4; font-weight: light;">Home Page</a></p> -->
+
+    </footer>
+
+    
+
+    <!-- Add JS at the bottom of HTML file -->
+    <script src="simulation.js"></script>
+    
+
+</html>
